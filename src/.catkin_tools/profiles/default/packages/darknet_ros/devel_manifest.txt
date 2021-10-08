@@ -1,0 +1,8 @@
+darknet_ros/darknet_ros
+/home/domenico/dk_test/src/devel/.private/darknet_ros/cmake.lock /home/domenico/dk_test/src/devel/./cmake.lock
+/home/domenico/dk_test/src/devel/.private/darknet_ros/share/darknet_ros/cmake/darknet_rosConfig.cmake /home/domenico/dk_test/src/devel/share/darknet_ros/cmake/darknet_rosConfig.cmake
+/home/domenico/dk_test/src/devel/.private/darknet_ros/share/darknet_ros/cmake/darknet_rosConfig-version.cmake /home/domenico/dk_test/src/devel/share/darknet_ros/cmake/darknet_rosConfig-version.cmake
+/home/domenico/dk_test/src/devel/.private/darknet_ros/lib/libdarknet_ros_lib.so /home/domenico/dk_test/src/devel/lib/libdarknet_ros_lib.so
+/home/domenico/dk_test/src/devel/.private/darknet_ros/lib/libdarknet_ros_nodelet.so /home/domenico/dk_test/src/devel/lib/libdarknet_ros_nodelet.so
+/home/domenico/dk_test/src/devel/.private/darknet_ros/lib/pkgconfig/darknet_ros.pc /home/domenico/dk_test/src/devel/lib/pkgconfig/darknet_ros.pc
+/home/domenico/dk_test/src/devel/.private/darknet_ros/lib/darknet_ros/darknet_ros /home/domenico/dk_test/src/devel/lib/darknet_ros/darknet_ros

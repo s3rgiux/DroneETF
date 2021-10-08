@@ -1,0 +1,1 @@
+/home/domenico/dk_test/src/devel/.private/catkin_tools_prebuild/local_setup.bash

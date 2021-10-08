@@ -1,0 +1,18 @@
+material eft/Aruco
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0 1.0
+			diffuse 0.5 0.5 0.5 1.0
+			specular 0.0 0.0 0.0 1.0 2.0
+
+			texture_unit
+			{
+				aruco5x5.png
+				filtering trilinear
+			}
+		}
+	}
+}

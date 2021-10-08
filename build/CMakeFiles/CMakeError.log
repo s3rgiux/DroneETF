@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/domenico/dk_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_337d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_337d1.dir/build.make CMakeFiles/cmTC_337d1.dir/build
+make[1]: Entering directory '/home/domenico/dk_test/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_337d1.dir/CheckSymbolExists.c.o
+/usr/lib/ccache/cc    -o CMakeFiles/cmTC_337d1.dir/CheckSymbolExists.c.o   -c /home/domenico/dk_test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_337d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_337d1.dir/link.txt --verbose=1
+/usr/lib/ccache/cc      -rdynamic CMakeFiles/cmTC_337d1.dir/CheckSymbolExists.c.o  -o cmTC_337d1 
+CMakeFiles/cmTC_337d1.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_337d1.dir/build.make:97: recipe for target 'cmTC_337d1' failed
+make[1]: *** [cmTC_337d1] Error 1
+make[1]: Leaving directory '/home/domenico/dk_test/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_337d1/fast' failed
+make: *** [cmTC_337d1/fast] Error 2
+
+File /home/domenico/dk_test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/domenico/dk_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02397/fast"
+/usr/bin/make -f CMakeFiles/cmTC_02397.dir/build.make CMakeFiles/cmTC_02397.dir/build
+make[1]: Entering directory '/home/domenico/dk_test/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02397.dir/CheckFunctionExists.c.o
+/usr/lib/ccache/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_02397.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_02397
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02397.dir/link.txt --verbose=1
+/usr/lib/ccache/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_02397.dir/CheckFunctionExists.c.o  -o cmTC_02397 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_02397.dir/build.make:97: recipe for target 'cmTC_02397' failed
+make[1]: *** [cmTC_02397] Error 1
+make[1]: Leaving directory '/home/domenico/dk_test/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_02397/fast' failed
+make: *** [cmTC_02397/fast] Error 2
+
+

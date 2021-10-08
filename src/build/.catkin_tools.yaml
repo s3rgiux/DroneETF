@@ -1,0 +1,6 @@
+devel_space: /home/domenico/dk_test/src/devel
+install: false
+install_space: /home/domenico/dk_test/src/install
+profile: default
+source_space: /home/domenico/dk_test/src/src
+workspace: /home/domenico/dk_test/src

@@ -1,0 +1,12 @@
+Symlinking /home/domenico/dk_test/src/devel/./setup.bash
+Symlinking /home/domenico/dk_test/src/devel/./local_setup.zsh
+Symlinking /home/domenico/dk_test/src/devel/./setup.sh
+Symlinking /home/domenico/dk_test/src/devel/./local_setup.bash
+Symlinking /home/domenico/dk_test/src/devel/./setup.zsh
+Symlinking /home/domenico/dk_test/src/devel/./env.sh
+Symlinking /home/domenico/dk_test/src/devel/./local_setup.sh
+Symlinking /home/domenico/dk_test/src/devel/./_setup_util.py
+Symlinking /home/domenico/dk_test/src/devel/./cmake.lock
+Symlinking /home/domenico/dk_test/src/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/domenico/dk_test/src/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/domenico/dk_test/src/devel/lib/pkgconfig/catkin_tools_prebuild.pc

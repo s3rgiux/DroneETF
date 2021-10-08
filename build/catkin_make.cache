@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/domenico/dk_test/devel -DCMAKE_INSTALL_PREFIX=/home/domenico/dk_test/install -G Unix Makefiles

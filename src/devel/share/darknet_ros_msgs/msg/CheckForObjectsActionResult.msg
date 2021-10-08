@@ -1,0 +1,1 @@
+/home/domenico/dk_test/src/devel/.private/darknet_ros_msgs/share/darknet_ros_msgs/msg/CheckForObjectsActionResult.msg
