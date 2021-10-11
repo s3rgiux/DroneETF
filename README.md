@@ -108,6 +108,9 @@ Added code lines to bash:
 - [X] OpenCV algorithm
 
 ##Creator
+
 - Domenico Morales
+
 ##Support
+
 - Sergio Reyes 
